@@ -5,7 +5,8 @@ module.exports = {
     node: true
   },
   extends: [
-    'standard'
+    'standard',
+    'eslint-config-prettier'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -16,5 +17,9 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    indent: [
+      'error', 4
+    ]
+
   }
 }
