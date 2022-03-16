@@ -1,0 +1,25 @@
+{
+  "name": "JapanDisasterAlert",
+  "version": "1.0.0",
+  "description": "Send notification of disaster in Japan on Discord",
+  "main": "build/main.js",
+  "repository": "git@github.com:Allianaab2m/JapanDisasterAlert.git",
+  "author": "Alliana <56180684+Allianaab2m@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "prettier": "^2.6.0",
+    "prettier-plugin-eslint": "^1.0.2",
+    "typescript": "^4.6.2"
+  }
+}
