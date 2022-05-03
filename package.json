@@ -8,7 +8,12 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "discord.js": "^13.6.0"
+    "@aspida/axios": "^1.10.0",
+    "@types/websocket": "^1.0.5",
+    "axios": "^0.27.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "ws": "^8.5.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.15.0",
